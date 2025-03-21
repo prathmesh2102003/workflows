@@ -1,9 +1,78 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="t72BmHLDI0K9izWDblEG">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dVyjVCHV9sUlLA2_NJaO-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dVyjVCHV9sUlLA2_NJaO-1" target="dVyjVCHV9sUlLA2_NJaO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dVyjVCHV9sUlLA2_NJaO-1" value="Node-js Application" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="10" y="150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dVyjVCHV9sUlLA2_NJaO-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/socialcones/508/Gitlab-128.png" vertex="1" parent="1">
+          <mxGeometry x="300" y="150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dVyjVCHV9sUlLA2_NJaO-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/socialcones/508/Gitlab-128.png" vertex="1" parent="1">
+          <mxGeometry x="470" y="150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dVyjVCHV9sUlLA2_NJaO-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dVyjVCHV9sUlLA2_NJaO-4" target="dVyjVCHV9sUlLA2_NJaO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dVyjVCHV9sUlLA2_NJaO-4" value="DockerFile" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="150" y="150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dVyjVCHV9sUlLA2_NJaO-5" value="Push on GitLab Registry" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="230" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dVyjVCHV9sUlLA2_NJaO-6" value="Deploy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dVyjVCHV9sUlLA2_NJaO-7" value="update image tag&lt;div&gt;in Manifest file&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="225" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dVyjVCHV9sUlLA2_NJaO-8" value="GitLab registry" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dVyjVCHV9sUlLA2_NJaO-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="dVyjVCHV9sUlLA2_NJaO-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="120" as="sourcePoint" />
+            <mxPoint x="397" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVyjVCHV9sUlLA2_NJaO-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.625;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dVyjVCHV9sUlLA2_NJaO-8" target="dVyjVCHV9sUlLA2_NJaO-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="70" as="sourcePoint" />
+            <mxPoint x="540" y="20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVyjVCHV9sUlLA2_NJaO-14" value="new&amp;nbsp;&lt;div&gt;commit&amp;nbsp;&lt;/div&gt;&lt;div&gt;ID&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="70" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dVyjVCHV9sUlLA2_NJaO-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dVyjVCHV9sUlLA2_NJaO-15" target="dVyjVCHV9sUlLA2_NJaO-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dVyjVCHV9sUlLA2_NJaO-15" value="ArgoCD" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="640" y="150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dVyjVCHV9sUlLA2_NJaO-16" value="MicroK8s" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="640" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dVyjVCHV9sUlLA2_NJaO-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dVyjVCHV9sUlLA2_NJaO-3" target="dVyjVCHV9sUlLA2_NJaO-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="240" as="sourcePoint" />
+            <mxPoint x="630" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVyjVCHV9sUlLA2_NJaO-19" value="Pull repo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="160" width="70" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
